@@ -1,10 +1,7 @@
 # Shotty V2.0 (in progress)
 
 # Shotty V1.0 (not working properly)
-Shotty is an open-source shot dispencer
-
-
-Un servomotor atasat de un brat mobil al unei jucarii care se duce deasupra unui pahar si toarna o cantitate de lichid avand 4 moduri de lucru (manual, aleatoriu, automat si curatate) si un mod de dimensionare a cantitatii de lichid
+Shotty is an open-source shot dispenser
 
 A servo motor is affixed to a mobile arm of a toy, adept at maneuvering above a glass and dispensing liquid with precision. It offers four distinct operating modes: manual, random, automatic and cleaning. Additionally, it includes a liquid quantity sizing mode for precise measurement adjustments.
 
@@ -17,7 +14,7 @@ A servo motor is affixed to a mobile arm of a toy, adept at maneuvering above a 
 <img src="https://github.com/eneadriancatalin/Shotty-dispenser/blob/main/media/presentation/tinkercadv1.1.png?raw=true" width="720" />
 <img src="https://github.com/eneadriancatalin/Shotty-dispenser/blob/main/media/tinkercad_v1.png?raw=true" width="720" />
 
-In the initial version on Tinkercad, I had a functional model. The only issue encountered was the limitation on the number of consumers for the Arduino:
+In the initial version of Tinkercad, I had a functional model. The only issue encountered was the limitation on the number of consumers for the Arduino:
 
 - A maximum of 16 LEDs lit simultaneously
 - Utilization of the LCD
@@ -33,7 +30,7 @@ Changes made in the second version:
 - Improved the arrangement of the breadboards slightly.
 - Added a 10µF capacitor to the main button.
 - Transitioned the red LEDs to the 9V battery.
-- Implemented transistors for the red LEDs to control them with the voltage from the Arduino (that's coming thow the microswitch).
+- Implemented transistors for the red LEDs to control them with the voltage from the Arduino (that's coming through the microswitch).
 
 <img src="https://github.com/eneadriancatalin/Shotty-dispenser/blob/main/media/presentation/tinkercadv1.3.png?raw=true" width="720" />
 <img src="https://github.com/eneadriancatalin/Shotty-dispenser/blob/main/media/tinkercad_v3.png?raw=true" width="720" />
@@ -56,7 +53,7 @@ In the above model, the following features are included:
 <img src="https://github.com/eneadriancatalin/Shotty-dispenser/blob/main/media/presentation/drawing_top.png?raw=true" width="720" />
 <img src="https://github.com/eneadriancatalin/Shotty-dispenser/blob/main/media/top_view_printed.jpg?raw=true?raw=true" width="720" />
 
-The Fusion 360 version of the design fit within an A2 page. I decided to divide the A2 page into 6 A4 pages for easier printing, and then glue them together to obtain the final model.
+The Fusion 360 version of the design fits within an A2 page. I decided to divide the A2 page into 6 A4 pages for easier printing, and then glue them together to obtain the final model.
 
 [The A2 PDF file can be found here](https://github.com/eneadriancatalin/Shotty-dispenser/blob/main/drawings/top_view_A2.pdf)
 
@@ -96,14 +93,14 @@ Pentru partea laterala am reusit sa o incadrez pe o foaie A4 (sau cel putin doar
 - choosing another type of toy; the current one had the arm's rotation point at the back, resulting in Shotty being excessively large
 - <img src="https://github.com/eneadriancatalin/Shotty-dispenser/blob/main/media/components/future_combine.png?raw=true" width="300" />
 - Completely redesigning the 3D model to fit the characteristics of the new toy
-- Adding a power port for mains power supply, a button for selecting between mains power and battery power, and a female USB port for easier Arduino code updates
+- Adding a power port for the main power supply, a button for selecting between mains power and battery power, and a female USB port for easier Arduino code updates
 
 
 <img src="https://github.com/eneadriancatalin/Shotty-dispenser/blob/main/media/presentation/media.png?raw=true" width="720" />
 <img src="https://github.com/eneadriancatalin/Shotty-dispenser/blob/main/media/breadboard.jpg?raw=true" width="720" />
 <img src="https://github.com/eneadriancatalin/Shotty-dispenser/blob/main/media/break_truck.jpg?raw=true" width="720" />
 
-(sorry for bad quality)
+(sorry for the bad quality)
 
 <img src="https://github.com/eneadriancatalin/Shotty-dispenser/blob/main/media/hole_plexiglass.jpg?raw=true" width="720" />
 <img src="https://github.com/eneadriancatalin/Shotty-dispenser/blob/main/media/soldering.jpg?raw=true" width="720" />
